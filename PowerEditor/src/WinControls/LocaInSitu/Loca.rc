@@ -1,0 +1,106 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_LOCA_IN_SITU DIALOGEX 0, 0, 404, 196
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "In Context Localizaltion"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Localize",IDOK,35,169,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,103,169,50,14
+    LTEXT           "String To Translate:",IDC_STATIC1,0,2,80,10
+    LTEXT           "New Translation:",IDC_STATIC2,0,20,80,10
+    EDITTEXT        IDC_EDIT_STR_TO_TRANSLATE,80,2,100,14,ES_AUTOHSCROLL | ES_READONLY
+    COMBOBOX        IDC_EDIT_SR_TRANSLATED,80,20,100,44,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Submit Translation",IDC_BTN_SUBMIT,2,100,80,14
+    DEFPUSHBUTTON   "Get All Translations",IDC_BTN_RETRIEVE_ALL,2,115,80,14
+    GROUPBOX        "Online",IDC_STATIC,1,90,400,74
+    DEFPUSHBUTTON   "Online Workspace...",IDC_BTN_ONLINE,2,130,80,14
+    CONTROL         "",IDC_LIST_MODULE,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,84,100,315,62
+    LTEXT           "Quality:",IDC_STATIC3,0,36,80,10
+    COMBOBOX        IDC_CBB_QUALITY,80,36,100,56,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Comment:",IDC_STATIC4,0,52,80,10
+    EDITTEXT        IDC_EDIT_COMMENT,80,52,319,36,ES_MULTILINE | ES_AUTOHSCROLL
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_LOCA_IN_SITU, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 136
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
